@@ -1,0 +1,95 @@
+#name-text {
+    margin-left: 25px;
+    font-size: 1.75em;
+}
+
+.nav-link {
+    font-size: 1.25em;
+    margin-left: 50px;
+}
+
+body {
+    background-color: rgb(31, 31, 34);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 100vw;
+  }
+  .dark-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+    width: 70vw;
+    border-radius: 20px;
+    background-color: rgb(19, 19, 19);
+  }
+  .box-header {
+    background-color: rgb(19, 19, 19);
+    height: 125px;
+    width: 65vw;
+  }
+  .about-text {
+    font-size: 2.4em;
+    color: #fff;
+  }
+  .about-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+  }
+  .about-p {
+    font-size: 1.2em;
+    color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 70vw;
+  }
+  .skills-pics {
+    height: 5rem;
+    width: auto;
+  }
+  
+  .skills-text {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .skills-box {
+  display: grid; 
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  
+    width: 70vw;
+    height: 50vh;
+  }
+  .projects-text {
+    color: white;
+    font-size: 6em;
+  }
+  .contact-img {
+    height: 250px;
+    width: auto;
+  }
+  .contact-text {
+    color: white;
+    margin-top: 10px;
+  }
+  .contact-box {
+    display: flex;
+  }
+  
+  .contact-spacing {
+    margin: 30px
+  }
